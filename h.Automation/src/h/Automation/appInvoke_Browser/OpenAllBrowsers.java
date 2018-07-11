@@ -19,6 +19,7 @@ public class OpenAllBrowsers {
 		System.setProperty("webdriver.chrome.driver", path);
 		driver = new ChromeDriver();
 		driver.get("https://www.github.com/");
+		driver.manage().window().maximize();
 
 		path = "D:\\Selenium_drivers\\geckodriver.exe";
 		System.setProperty("webdriver.gecko.driver", path);
