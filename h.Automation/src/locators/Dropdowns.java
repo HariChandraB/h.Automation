@@ -18,6 +18,7 @@ public class Dropdowns {
 		System.setProperty("webdriver.chrome.driver", path);
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.get("https://www.amazon.com/");
 		
 		driver.findElement(By.id("twotabsearchtextbox")).click();
