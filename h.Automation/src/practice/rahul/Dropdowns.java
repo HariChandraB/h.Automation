@@ -1,4 +1,4 @@
-package Selenium.rahul;
+package practice.rahul;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
