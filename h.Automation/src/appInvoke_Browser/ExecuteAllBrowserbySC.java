@@ -1,4 +1,4 @@
-package h.Automation.appInvoke_Browser;
+package appInvoke_Browser;
 
 import java.util.Scanner;
 

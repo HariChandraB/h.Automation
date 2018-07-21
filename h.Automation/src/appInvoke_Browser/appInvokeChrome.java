@@ -1,4 +1,4 @@
-package h.Automation.appInvoke_Browser;
+package appInvoke_Browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
