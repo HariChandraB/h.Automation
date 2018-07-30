@@ -35,4 +35,16 @@ public class Facebook_Login {
 		loginbtn.click();
 	}
 
+	public void enterUsername(String username) {
+		usrname.sendKeys(username);
+	}
+
+	public void enterPassword(String Password) {
+		password.sendKeys(Password);
+	}
+
+	public void clickOnLogin() {
+		loginbtn.click();
+	}
+
 }
