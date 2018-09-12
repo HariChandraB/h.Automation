@@ -11,10 +11,11 @@ public class appInvokeChrome {
 		System.setProperty("webdriver.chrome.driver", path);
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://www.youtube.com/");
+		driver.get("https://www.youtube.com/"); // navigates to given url
 		System.out.println("driver.getTitle()");
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
+		// here it prints current url
 
 		driver.navigate().refresh();
 		/*
